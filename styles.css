@@ -73,9 +73,6 @@ nav a:hover { text-decoration: underline; }
 .entry p { margin-bottom: .3rem; }
 .entry-date { font-size: .875rem; color: var(--accent); }
 .detail { font-size: .94rem; color: var(--muted); }
-.methods { padding-top: 1.4rem; border-top: 1px solid var(--line); margin-top: .5rem; }
-.methods h3 { font-size: 1rem; }
-.methods p { margin-bottom: .3rem; }
 
 /* Contact and footer */
 .contact { border-top: 1px solid var(--line); padding: 2.5rem 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
