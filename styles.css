@@ -48,6 +48,8 @@ nav a:hover { text-decoration: underline; }
 .section { padding: 2.8rem 0; border-top: 1px solid var(--line); }
 .section-heading { margin-bottom: 1.8rem; }
 .research-list { display: grid; gap: 1.6rem; }
+.research-subheading { font-family: var(--serif); font-size: 1.4rem; font-weight: 400; margin: 2rem 0 1.3rem; }
+.research-item h4 { font-size: 1.1rem; font-weight: 600; margin-bottom: .6rem; }
 .research-item p { margin-bottom: .4rem; }
 .method { font-size: .875rem; color: var(--muted); }
 .publications { list-style: none; padding: 0; margin: 0; }

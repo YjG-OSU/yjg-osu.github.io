@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#173d52">
   <link rel="canonical" href="https://yjg-osu.github.io/">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%23173d52'/%3E%3Ctext x='24' y='32' text-anchor='middle' font-family='Georgia,serif' font-size='29' fill='white'%3EG%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260927-research">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -34,8 +34,7 @@
         <h1 id="name">Yunjing Guo</h1>
         <p class="position">Ph.D. Candidate in Operations Research</p>
         <p class="affiliation">Department of Integrated Systems Engineering<br>The Ohio State University · Columbus, Ohio</p>
-        <p>My research brings together operations research, power systems, and energy economics to support decarbonization. I combine optimization and data-driven decision-making to study how energy infrastructure can be planned and operated sustainably, reliably, and affordably.</p>
-        <p>A central focus of my doctoral work is multi-sector coordination, particularly the connections between electricity and desalination-based water systems. I develop models of infrastructure investment and day-to-day operation to examine how water-system flexibility and energy storage can support low-carbon power systems and provide grid services.</p>
+        <p>My research combines operations research, power systems, and energy economics to support deep decarbonization. I develop optimization models grounded in engineering principles and system data to study investment and operation across interconnected infrastructures. My doctoral work focuses on electricity and desalination-based water systems, examining how flexible water demand, water storage, and energy storage can support reliable, affordable low-carbon power systems. More broadly, I aim to uncover flexibility across sectors and translate it into practical planning, operating, and market decisions.</p>
         <p>I am advised by Ramteen Sioshansi and co-advised by Chen Chen.</p>
         <p>Outside of research, I enjoy hiking, photography, boxing, and theater.</p>
         <p class="degree-note">Expected Ph.D. completion: December 2026.</p>
@@ -46,10 +45,17 @@
     <section id="research" class="section" aria-labelledby="research-title">
       <div class="section-heading"><h2 id="research-title">Research</h2></div>
       <p>I am interested in how policy and market rules influence investment and operating decisions, and how those decisions affect emissions, costs, and service reliability. This motivates an approach that connects engineering models with economic incentives and uses system data and scenario analysis to compare alternative pathways. My goal is to provide decision support for policymakers and energy-system planners, helping identify where flexibility, storage, and coordination can reduce the cost and disruption of decarbonization.</p>
+      <h3 class="research-subheading">Current research</h3>
       <div class="research-list">
-        <article class="research-item"><div><h3>Coordinated power and water planning</h3><p>I develop mixed-integer nonlinear models to examine how coordination between electricity, desalination, and water distribution systems affects investment and operation under carbon-emissions limits. Convexification and reformulation help make these models computationally tractable.</p><p class="method">Infrastructure planning · MINLP · Convexification</p></div></article>
-        <article class="research-item"><div><h3>Water-system flexibility and energy storage</h3><p>I compare the flexibility of water distribution systems with conventional energy storage over short- and long-term planning horizons. This work combines a mixed-integer quadratically constrained model with a scalable clustering approach for representative-day modeling.</p><p class="method">Decarbonization · MIQCP · Long-term modeling</p></div></article>
-        <article class="research-item"><div><h3>Water systems in ancillary-service markets</h3><p>I study the value of reserve provision by desalination-based water systems. The modeling accounts for the feasibility of reserve activation while maintaining water-service requirements.</p><p class="method">Electricity markets · Reserve provision · Water-service feasibility</p></div></article>
+        <article class="research-item"><h4>Coordinated power and water planning</h4><p>I compare separately operated and jointly coordinated electricity–water systems under increasingly stringent carbon limits. My optimization models examine how shifting water loads, using water tanks, and coordinating infrastructure expansion can support deep decarbonization while preserving physical operating constraints.</p><p class="method">Infrastructure planning · MINLP · Convexification</p></article>
+        <article class="research-item"><h4>Water-system flexibility and energy storage</h4><p>I study when the flexibility of desalination, pumping, and water storage can complement or partially substitute for conventional energy storage. This work combines mixed-integer optimization with representative-day modeling to capture hourly variability, daily operations, and longer-term storage effects in infrastructure planning.</p><p class="method">Decarbonization · MIQCP · Long-term modeling</p></article>
+        <article class="research-item"><h4>Water systems in ancillary-service markets</h4><p>I investigate how desalination-based water systems can provide reserve capacity while maintaining water service. The models account for reserve-activation feasibility, hydraulic constraints, storage interactions, and operating limits, connecting engineering optimization with electricity-market participation.</p><p class="method">Electricity markets · Reserve provision · Water-service feasibility</p></article>
+      </div>
+      <h3 class="research-subheading">Future directions</h3>
+      <div class="research-list">
+        <article class="research-item"><h4>Coordination across timescales and decision-makers</h4><p>I aim to connect short-term operations and market participation with long-term investment, while representing hydraulic dynamics, climate-sensitive water availability, and infrastructures operated by multiple decision-makers with different objectives and incentives.</p></article>
+        <article class="research-item"><h4>Scalable optimization and learning-assisted decisions</h4><p>I plan to develop decomposition, convexification, and reformulation methods for larger infrastructure models. I am also interested in exploring reinforcement learning as a complement to optimization for sequential operating decisions, with attention to physical feasibility and reliability.</p></article>
+        <article class="research-item"><h4>Flexibility beyond water and power</h4><p>I plan to extend these frameworks to gas networks, electric vehicles, and data centers, studying how cross-sector coordination can support renewable-energy integration, resilience, and long-term energy sufficiency as electricity demand grows.</p></article>
       </div>
     </section>
 
